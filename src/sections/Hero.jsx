@@ -16,7 +16,9 @@ const Hero = () => {
 
         {/* Impact Statement */}
         <p className="text-lg md:text-xl text-gray-300 mb-6 max-w-2xl mx-auto">
-          I build scalable backend systems and deploy AI models into real-world applications.
+          I build real-time AI systems and scalable backend architectures used in production-grade applications.
+          Built YOLOv8 ALPR system (~95% accuracy)
+          Hackathon Winner (1st among 72 projects)
         </p>
 
         {/* Buttons */}

@@ -21,9 +21,9 @@ const About = () => {
           </p>
 
           <p>
-            During my 9-month internship at TBFC Business Solutions, I built and deployed an
-            end-to-end Automatic License Plate Recognition (ALPR) system, handling model development,
-            real-time detection, and production-level logging integration.
+            Worked as a Data Science and AI Intern at TBFC Business Solutions, where I built and deployed a
+            production level Automatic License Plate Recognition (ALPR) system end-to-end, from model training,
+            real-time deployment and logging infrastructure.
           </p>
 
           <p>

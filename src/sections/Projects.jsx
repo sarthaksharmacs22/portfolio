@@ -160,7 +160,7 @@ const projects = [
     title: "Automatic License Plate Recognition (ALPR)",
     category: "ai",
     description:
-      "Built a real-time license plate detection system using YOLOv8 and OCR with automated logging.",
+      "Handled real-time detection, OCR pipeline, and logging system integration with Google Sheets.",
     tech: "YOLOv8, OpenCV, EasyOCR, Python",
     github:
       "https://github.com/sarthaksharmacs22/Final_ALPR_System",
@@ -202,7 +202,7 @@ const Projects = () => {
   const renderCard = (project, index) => (
     <div
       key={index}
-      className="border border-gray-700 p-6 rounded-xl hover:border-white transition transform hover:-translate-y-2 hover:shadow-2xl hover:shadow-gray-800 flex flex-col justify-between"
+      className="border border-gray-900/40 backdrop-blur-md p-6 rounded-xl hover:border-white transition transform hover:-translate-y-2 hover:shadow-2xl hover:shadow-gray-800 flex flex-col justify-between"
     >
       {/* IMAGE */}
       {project.image && (
@@ -245,7 +245,7 @@ const Projects = () => {
             rel="noopener noreferrer"
             className="text-sm text-blue-400 hover:text-blue-300 underline"
           >
-            View Demo
+            Watch Demo
           </a>
         )}
 
