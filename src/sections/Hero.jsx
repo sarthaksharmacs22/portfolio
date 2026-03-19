@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-black via-gray-900 to-black text-white px-6 pt-20">
+    <section className="min-h-[90vh] flex items-center justify-center bg-gradient-to-b from-black via-gray-900 to-black text-white px-6 pt-16">
       
       <div className="max-w-4xl text-center space-y-2">
 
@@ -15,32 +15,54 @@ const Hero = () => {
         </h2>
 
         {/* Impact Statement */}
-        <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+        <p className="text-lg md:text-xl text-gray-300 mb-6 max-w-2xl mx-auto">
           I build scalable backend systems and deploy AI models into real-world applications.
         </p>
 
         {/* Buttons */}
-        <div className="flex justify-center gap-4 flex-wrap">
-          
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-0 mt-4">
+
+        {/* AI COLUMN */}
+        <div className="flex flex-col items-center gap-3">
           <a
-            href="#projects"
-            className="px-6 py-3 bg-white text-black font-semibold rounded-lg hover:scale-105 transition transform shadow-lg hover:shadow-white/20"
+            href="#ai-projects"
+            className="w-48 text-center px-6 py-3 bg-white text-black font-semibold rounded-lg hover:scale-105 transition transform shadow-lg hover:shadow-white/20"
           >
-            View Projects
+            AI Projects
           </a>
 
           <a
-            href="/resume.pdf"
+            href="/Sarthak_AI_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-3 border border-white rounded-lg hover:bg-white hover:text-black transition"
+            className="w-48 text-center px-6 py-3 border border-white rounded-lg hover:bg-white hover:text-black transition"
           >
-            View Resume
+            AI Resume
+          </a>
+        </div>
+
+        {/* BACKEND COLUMN */}
+        <div className="flex flex-col items-center gap-3">
+          <a
+            href="#backend-projects"
+            className="w-48 text-center px-6 py-3 bg-white text-black font-semibold rounded-lg hover:scale-105 transition transform shadow-lg hover:shadow-white/20"
+          >
+            Backend Projects
           </a>
 
+          <a
+            href="/Sarthak_Java_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-48 text-center px-6 py-3 border border-white rounded-lg hover:bg-white hover:text-black transition"
+          >
+            Backend Resume
+          </a>
         </div>
 
       </div>
+
+    </div>
 
     </section>
   );

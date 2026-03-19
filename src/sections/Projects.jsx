@@ -146,7 +146,7 @@
 
 const projects = [
   {
-    title: "Job Portal Backend System",
+    title: "HireHub-Role-Based-Job-Portal-Backend System",
     category: "backend",
     description:
       "Developed a role-based job portal using Spring Boot with JWT authentication and REST APIs for job posting and applications.",
@@ -303,28 +303,34 @@ const Projects = () => {
       id="projects"
       className="bg-gradient-to-b from-black via-gray-900 to-black text-white py-24 md:py-32 px-6"
     >
-      <div className="max-w-6xl mx-auto">
+    <div className="max-w-6xl mx-auto">
 
-        {/* Divider */}
-        <div className="h-px w-full bg-gray-800 mb-10"></div>
+      {/* Divider */}
+      <div className="h-px w-full bg-gray-800 mb-10"></div>
 
-        {/* AI PROJECTS */}
-        <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center">
-          AI Engineering Projects
-        </h2>
+      {/* AI PROJECTS */}
+      <h2
+        id="ai-projects"
+        className="text-3xl md:text-4xl font-bold mb-10 text-center"
+      >
+        AI Engineering Projects
+      </h2>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
-          {aiProjects.map(renderCard)}
-        </div>
+      <div className="grid md:grid-cols-2 gap-8 mb-16">
+        {aiProjects.map(renderCard)}
+      </div>
 
-        {/* BACKEND PROJECTS */}
-        <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center">
-          Backend Projects
-        </h2>
+      {/* BACKEND PROJECTS */}
+      <h2
+        id="backend-projects"
+        className="text-3xl md:text-4xl font-bold mb-10 text-center"
+      >
+        Backend Projects
+      </h2>
 
-        <div className="grid md:grid-cols-2 gap-8">
-          {backendProjects.map(renderCard)}
-        </div>
+      <div className="grid md:grid-cols-2 gap-8">
+        {backendProjects.map(renderCard)}
+      </div>
 
       </div>
     </section>
