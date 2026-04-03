@@ -37,6 +37,7 @@ const Hero = () => {
             href="/Sarthak_Sharma_AIML_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
+            className="w-48 text-center px-6 py-3 border border-white rounded-lg hover:bg-white hover:text-black transition"
           >
             AI Resume
           </a>
@@ -55,6 +56,7 @@ const Hero = () => {
             href="/Sarthak_Sharma_Java_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
+            className="w-48 text-center px-6 py-3 border border-white rounded-lg hover:bg-white hover:text-black transition"
           >
             Backend Resume
           </a>
