@@ -34,7 +34,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="/Sarthak_AI_Resume.pdf"
+            href="/Sarthak_Sharma_AIML_Resume"
             target="_blank"
             rel="noopener noreferrer"
             className="w-48 text-center px-6 py-3 border border-white rounded-lg hover:bg-white hover:text-black transition"
@@ -53,7 +53,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="/Sarthak_Java_Resume.pdf"
+            href="/Sarthak_Sharma_Java_Resume"
             target="_blank"
             rel="noopener noreferrer"
             className="w-48 text-center px-6 py-3 border border-white rounded-lg hover:bg-white hover:text-black transition"
